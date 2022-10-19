@@ -1,12 +1,17 @@
 {
     "appService.zipIgnorePattern": [
-        "node_modules{,/**}",
+        // "node_modules{,/**}",
         ".vscode{,/**}",
         ".env",
-        "test{,/**}"
+        "test{,/**}",
+        ".secrets",
+        "public/js/script.js",
+        "*.md",
+        "coverage"
     ],
     "appService.deploySubpath": ".",
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": false
     },
+    "appService.defaultWebAppToDeploy": "/subscriptions/23959d6c-598d-4125-8fc2-386ad549953d/resourceGroups/tutorial-resource-group-eastus/providers/Microsoft.Web/sites/swl-tts-app",
 }

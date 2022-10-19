@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/azure-samples/js-e2e-express-server/issues"
   },
-  "homepage": "https://github.com/azure-samples/js-e2e-express-server#readme",
+  "homepage": "https://swl-tts-app.azurewebsites.net",
   "devDependencies": {
     "eslint": "^7.9.0",
     "eslint-config-airbnb": "^18.2.0",
@@ -41,7 +41,8 @@
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "serve-favicon": "^2.5.0"
+    "serve-favicon": "^2.5.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.24.0"
   },
   "prettier": {
     "printWidth": 80,
